@@ -1,0 +1,44 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int largestRectangleArea(vector<int> &heights)
+{
+    int n = heights.size();
+    stack<int> st;
+    int leftSmall[n], rightSmall[n];
+    for (int i = 0; i < n; i++)
+    {
+        while (!st.empty() and heights[st.top() >= heights[i]])
+            st.pop();
+        if (st.empty())
+            leftSmall[i] = 0;
+        else
+            leftSmall[i] = st.top() + 1;
+    }
+
+    while (!st.empty())
+        st.pop();
+
+    for (int i = n - 1; i >= 0; i--)
+    {
+        while (!st.empty() and heights[st.top()] >= heights[i])
+            st.top();
+        if (st.empty())
+            rightSmall[i] = n - 1;
+        else
+            rightSmall[i] = st.top() - 1;
+        st.push(heights[i]);
+    }
+    int maxA = 0;
+    for (int i = 0; i < n; i++)
+    {
+        // int h = heights[i] * (right[i] - leftSmall[i] + 1);
+        maxA = max(maxA, heights[i] * (rightSmall[i] - leftSmall[i] + 1));
+    }
+    return maxA;
+}
+
+int main(int argc, char const *argv[])
+{
+    return 0;
+}
