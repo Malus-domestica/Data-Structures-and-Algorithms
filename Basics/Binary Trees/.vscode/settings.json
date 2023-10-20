@@ -1,0 +1,14 @@
+{
+    "cSpell.words": [
+        "inorder",
+        "Numberof",
+        "optimise",
+        "printleft",
+        "printpreorder",
+        "Toright"
+    ],
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
+}

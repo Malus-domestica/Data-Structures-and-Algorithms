@@ -1,0 +1,9 @@
+{
+    "cSpell.words": [
+        "hdis"
+    ],
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
+}

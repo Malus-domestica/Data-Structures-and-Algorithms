@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+    "cSpell.words": [
+        "kadane's",
+        "kaden's",
+        "nonwrap",
+        "occurence",
+        "pdiff"
+    ],
+    "C_Cpp.errorSquiggles": "Disabled"
+}

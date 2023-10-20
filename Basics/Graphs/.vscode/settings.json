@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "adjm",
+        "indeg",
+        "indegree",
+        "inorder"
+    ],
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
+}

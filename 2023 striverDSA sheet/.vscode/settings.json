@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "random": "cpp"
+    },
+    "cSpell.words": [
+        "duprow",
+        "myset"
+    ]
+}

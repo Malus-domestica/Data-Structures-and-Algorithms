@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "findmedian",
+        "heapify",
+        "maxheap"
+    ],
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp"
+    }
+}
