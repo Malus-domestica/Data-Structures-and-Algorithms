@@ -18,7 +18,7 @@ class LRUCache
     Node *head = new Node(-1, -1);
     Node *tail = new Node(-1, -1);
     int cap;
-    unordered_map<int, Node *> m;//to store ke and ptr to node
+    unordered_map<int, Node *> m;//to store key and ptr to node
 
 public:
     LRUCache(int capacity)
