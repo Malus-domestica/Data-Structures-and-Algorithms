@@ -6,7 +6,10 @@
     },
     "cSpell.words": [
         "duprow",
+        "indeg",
         "inorder",
-        "myset"
-    ]
+        "myset",
+        "topo"
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
 }
