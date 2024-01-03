@@ -74,3 +74,43 @@ int main(int argc, char const *argv[])
     cout << "hello Done" << endl;
     return 0;
 }
+
+/* solution by NeetCode
+class Solution {
+public:
+void gen(int open, int close, vector<char> &arr, vector<string> &ans ,int n)
+{
+    if(open == n and close == n)
+    {
+        string str(arr.begin(),arr.end());
+        ans.push_back(str);
+        return;
+    }
+
+    if(open < n)
+    {
+        arr.push_back('(');
+        gen(open+1,close,arr,ans,n);
+        arr.pop_back();
+    }
+    if(close < open)
+    {
+        arr.push_back(')');
+        gen(open,close+1,arr,ans,n);
+        arr.pop_back();
+    }
+}
+    vector<string> generateParenthesis(int n) {
+        //add open parenthesis when open<n
+        //add close parenthesis if close < open
+        //push into ans array if open == close == n
+        int open = 1;
+        int close=0;
+        vector<char> arr;
+        arr.push_back('(');
+        vector<string> ans;
+        gen(open,close,arr,ans,n);
+        return ans;
+    }
+};
+*/

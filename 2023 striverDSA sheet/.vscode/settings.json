@@ -9,7 +9,8 @@
         "indeg",
         "inorder",
         "myset",
-        "topo"
+        "topo",
+        "Warshall"
     ],
     "C_Cpp.errorSquiggles": "disabled"
 }
