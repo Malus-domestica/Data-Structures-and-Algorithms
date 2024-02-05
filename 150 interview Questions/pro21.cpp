@@ -59,6 +59,7 @@ ListNode *mergeTwoLists(ListNode *list1, ListNode *list2)
         ptr3->next = ptr1;
     if (ptr2 != NULL)
         ptr3->next = ptr2;
+    return newList;
 }
 
 int main(int argc, char const *argv[])

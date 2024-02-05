@@ -75,7 +75,7 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-/* solution by NeetCode
+// solution by NeetCode
 class Solution {
 public:
 void gen(int open, int close, vector<char> &arr, vector<string> &ans ,int n)
@@ -113,4 +113,3 @@ void gen(int open, int close, vector<char> &arr, vector<string> &ans ,int n)
         return ans;
     }
 };
-*/
